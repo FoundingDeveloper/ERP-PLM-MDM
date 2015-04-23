@@ -12,8 +12,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{6C37DECC-2F58-4122-8731-58E895B55A8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{DD3B29BC-25B7-45C6-833F-4CE9B578A807}"
+	ProjectSection(SolutionItems) = preProject
+		lib\DevComponents.DotNetBar2.dll = lib\DevComponents.DotNetBar2.dll
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icon", "icon", "{29BCB808-BBEC-4B55-BECD-47FADCFBC446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session", "Session\Session.csproj", "{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +58,14 @@ Global
 		{DAA7D123-C107-48A8-AC6B-6A1E68FEC49B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAA7D123-C107-48A8-AC6B-6A1E68FEC49B}.Release|x64.ActiveCfg = Release|Any CPU
 		{DAA7D123-C107-48A8-AC6B-6A1E68FEC49B}.Release|x86.ActiveCfg = Release|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Release|x64.ActiveCfg = Release|Any CPU
+		{69741DF7-4352-453E-B0D8-DD1DB4AA97FC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
